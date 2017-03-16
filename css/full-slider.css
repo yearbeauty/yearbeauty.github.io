@@ -42,3 +42,7 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.bg-dark {
+  background-color: #d9edf7;
+}
