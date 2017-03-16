@@ -46,3 +46,11 @@ footer {
 .bg-dark {
   background-color: rgba(0,0,0,0.8);
 }
+
+.bg-apple {
+  background-color: #f2f2f2;
+}
+
+.color-apple {
+  color: #333;
+}
