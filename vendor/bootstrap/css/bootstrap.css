@@ -1131,7 +1131,7 @@ img {
   display: inline-block;
   max-width: 100%;
   height: auto;
-  padding: 4px;
+  padding: 0px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -5000,7 +5000,7 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 0px;
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -5012,8 +5012,8 @@ a.badge:focus {
 }
 .thumbnail > img,
 .thumbnail a > img {
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
