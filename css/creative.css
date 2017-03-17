@@ -156,10 +156,10 @@ header {
   -o-background-size: cover;
   background-position: center;
 /*  background-image: url('../img/header.jpg');*/
-  background-image: url('http://omnfcwctq.bkt.clouddn.com/header.jpg');
   text-align: center;
   color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
@@ -430,7 +430,9 @@ body {
 .bg-black {
   background-color: #000000;
 }
-
+.bg-image-A1 {
+  background-image: url('http://omnfcwctq.bkt.clouddn.com/A1_00.jpg');
+}
 .color-apple {
   color: #333333;
 }
