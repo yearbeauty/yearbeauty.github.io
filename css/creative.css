@@ -415,3 +415,22 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+.bg-dark {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.bg-apple {
+  background-color: #f2f2f2;
+}
+
+.bg-white {
+  background-color: #f8f8f8;
+}
+
+.color-apple {
+  color: #333333;
+}
+
+.text-white {
+  color: #f3f3f3;
+}
