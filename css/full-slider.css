@@ -42,7 +42,14 @@ body {
 footer {
     margin: 50px 0;
 }
-
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}
 .bg-dark {
   background-color: rgba(0,0,0,0.8);
 }
