@@ -467,6 +467,10 @@ body {
   color: #333333;
 }
 
+.fa-wechat {
+  background-image: url('./img/wechat.png');
+}
+
 .text-white {
   color: #f3f3f3;
 }
