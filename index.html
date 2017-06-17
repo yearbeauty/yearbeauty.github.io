@@ -12,10 +12,20 @@
     <title>生活因你而美！</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="./vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    -->
+
+    <!-- Plugin CSS -->
+    <link href="./vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="./css/creative.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,274 +35,264 @@
 
 </head>
 
-<body>
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><p class="text-danger">YEAR BEAUTY</p></a>
+                <a class="navbar-brand page-scroll" href="/bgc/"><p class="text-danger">YEAR BEAUTY</p></a>
             </div>
-            
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav nav-pills navbar-nav navbar-right">
-                    <li role="presentation"  class="dropdown">
-                        <a href="/bgc/A/1/" class="dropdown-toggle"><p class="text-white"><b>拍摄稳定器</b></p></a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">简介</a>
                     </li>
-                    <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="text-white"><b>无线充电<span class="caret"></span></b></p></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="/bgc/B/1/">B1</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/B/2/">B2</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a class="page-scroll" href="#services">特性</a>
                     </li>
-                    <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="text-white"><b>保护壳<span class="caret"></span></b></p></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="/bgc/B/1/">B1</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/F/1/">F1</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/F/2/">F2</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">场景</a>
                     </li>
-                    <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="text-white"><b>移动电源<span class="caret"></span></b></p></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="/bgc/D/1/">D1</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/D/2/">D2</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/F/4/">F4</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="text-white"><b>数据线<span class="caret"></span></b></p></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="/bgc/E/1/">E1</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="text-white"><b>Remax<span class="caret"></span></b></p></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="/bgc/F/1/">F1</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/F/2/">F2</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/F/3/">F3</a>
-                            </li>
-                            <li>
-                                <a href="/bgc/F/4/">F4</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li role="presentation" class="dropdown">
-                        <a href="#" class="dropdown-toggle text-primary" data-toggle="dropdown"><span class="glyphicon glyphicon-option-vertical"></span>语言<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">中文</a>
-                            </li>
-                            <li>
-                                <a href="#">English</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a class="page-scroll" href="#contact">联系</a>
                     </li>
                 </ul>
             </div>
-            <!--<a class="navbar-brand page-scroll" href="#page-top">中文</a>
-            <a class="navbar-brand page-scroll" href="#page-top">English</a>-->
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <a href="/bgc/A/1/"><div class="fill" style="background-image:url('http://omnfcwctq.bkt.clouddn.com/01.jpg');"></div></a>
-                <div class="carousel-caption">
-                    <h2>01.jpg(1900x1080)</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <a href="/bgc/B/1/"><div class="fill" style="background-image:url('http://omnfcwctq.bkt.clouddn.com/02.jpg');"></div></a>
-                <div class="carousel-caption">
-                    <h2>02.jpg(1900x1080)</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <a href="/bgc/D/1/"><div class="fill" style="background-image:url('http://omnfcwctq.bkt.clouddn.com/03.jpg');"></div></a>
-                <div class="carousel-caption">
-                    <h2>02.jpg(1900x1080)</h2>
-                </div>
-            </div>
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <a href="/bgc/B/2/"><div class="fill" style="background-image:url('http://omnfcwctq.bkt.clouddn.com/04.jpg');"></div></a>
-                <div class="carousel-caption">
-                    <h2>04.jpg(1900x1080)</h2>
-                </div>
+    <header class="bg-image-A1">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">完美曲线 舒适握感</h1>
+                <hr>
+                <p>手柄结合人体工程学设计，使握感绝佳！时尚的造型理念，让拍摄流行起来吧！</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Go！</a>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
     </header>
 
-    <!-- Page Content -->
-    <div class="container-fluid bg-apple">
-
-        <br>
-        <br>
-        <br>
-
-        <!-- Title -->
-        <div class="row text-center">
-          <h3>精品推荐</h3>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">因而美手持拍摄稳定器</h2>
+                    <hr class="light">
+                    <p class="text-faded">随着互联网架构的不断发展，互联网视频交互变得越来越流行。特别是网络直播平台的兴起，更使得视频拍摄成为人们休闲娱乐社交不可或缺的一部分；同时，随着硬件的不断更新换代，部分智能终端已开始配备4K镜头。
+然而，现有技术中，由于非专业领域的普通大众使用手机以及运动相机拍摄时，难免镜头抖动较大，导致视频质量大打折扣，从而无法充分发挥4K镜头的画质优势。所以，现有技术中亟需一种可以解决手机拍摄抖动技术问题的手持设备。因而美手持拍摄稳定器就是为了解决这一痛点的完美神器！
+</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">来！让我们一起体验吧！</a>
+                </div>
+            </div>
         </div>
-        <!-- /.row -->
+    </section>
 
-        <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail color-apple bg-white">
-                    <a href="/bgc/A/1/" ><img src="http://omnfcwctq.bkt.clouddn.com/11.jpg" alt=""></a>
-                    <div class="caption">
-                        <h3>11.jpg</h3>
-                        <p>(700x400)</p>
-                    </div>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">功能特性</h2>
+                    <hr class="primary">
                 </div>
             </div>
-
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail color-apple bg-white">
-                    <a href="/bgc/B/1/"><img src="http://omnfcwctq.bkt.clouddn.com/12.jpg" alt=""></a>
-                    <div class="caption">
-                        <h3>12.jpg</h3>
-                        <p>(700x400)</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail color-apple bg-white">
-                    <a href="/bgc/D/1/"><img src="http://omnfcwctq.bkt.clouddn.com/13.jpg" alt=""></a>
-                    <div class="caption">
-                        <h3>13.jpg</h3>
-                        <p>(700x400)</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail color-apple bg-white">
-                    <a href="/bgc/B/2/"><img src="http://omnfcwctq.bkt.clouddn.com/14.jpg" alt=""></a>
-                    <div class="caption">
-                        <h3>14.jpg</h3>
-                        <p>(700x400)</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail color-apple bg-white">
-                    <a href="/bgc/F/1/"><img src="http://omnfcwctq.bkt.clouddn.com/15.jpg" alt=""></a>
-                    <div class="caption">
-                        <h3>15.jpg</h3>
-                        <p>(700x400)</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail color-apple bg-white">
-                    <a href="/bgc/D/2/"><img src="http://omnfcwctq.bkt.clouddn.com/16.jpg" alt=""></a>
-                    <div class="caption">
-                        <h3>16.jpg</h3>
-                        <p>(700x400)</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
-        <!-- /.row -->
-<!-- <hr>-->
-        <div class="row bg-dark">
-            <div class="col-xs-6 col-md-4">
-						  <p></p>
-							<h3>
-								<span class="glyphicon glyphicon-user text-danger"></span>
-								<span class="glyphicon glyphicon-envelope text-danger"></span>
-								<span class="glyphicon glyphicon-comment text-danger"></span>
-								<span class="glyphicon glyphicon-phone-alt text-danger"></span>
-							</h3>
-						</div>
-            <div class="col-xs-6 col-md-4 text-center ">
-              <p class="text-warning">Copyright &copy; yearbeauty.com 2017</p>
-              <p class="text-danger">YEAR BEAUTY</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-street-view text-primary sr-icons"></i>
+                        <h3>360度全景拍摄</h3>
+                        <p class="text-muted">航向360°设计能满足你全景无死角拍摄的需求</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-battery-full text-primary sr-icons"></i>
+                        <h3>边冲边用</h3>
+                        <p class="text-muted">没电了？没关系，身边的移动电源可即插即用，而拍摄无需间断。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-arrows text-primary sr-icons"></i>
+                        <h3>多种模式</h3>
+                        <p class="text-muted">同时支持常用的航向翻转跟随，航向跟随，全锁定模式。切换便捷。多LED显示，让你不再因为忘记当前模式而不知所措了！</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-thumbs-o-up text-primary sr-icons"></i>
+                        <h3>全新材料</h3>
+                        <p class="text-muted">手柄和支架全部采用全新合成材料设计，流水般的曲线边缘不再生硬。当拍摄成为潮流，造型必须时尚！</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-6 col-md-4"></div>
-         </div>
-    </div>
-    <!-- /.container -->
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://omnfcwctq.bkt.clouddn.com/A1_01.jpg" class="portfolio-box">
+                        <img src="http://omnfcwctq.bkt.clouddn.com/A1_01.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    视角
+                                </div>
+                                <div class="project-name">
+                                    倒挂拍摄，换个视角看世界
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://omnfcwctq.bkt.clouddn.com/A1_02.jpg" class="portfolio-box">
+                        <img src="http://omnfcwctq.bkt.clouddn.com/A1_02.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    聚焦
+                                </div>
+                                <div class="project-name">
+                                    直线拍摄，由远而近或由近而远，让主角很主角
+                                    </br>
+                                    曲线拍摄，猫步环绕，从不同角度看主角
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://omnfcwctq.bkt.clouddn.com/A1_03.jpg" class="portfolio-box">
+                        <img src="http://omnfcwctq.bkt.clouddn.com/A1_03.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    旅游
+                                </div>
+                                <div class="project-name">
+                                    边走边拍，美好时光就是这样记录的
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://omnfcwctq.bkt.clouddn.com/A1_04.jpg" class="portfolio-box">
+                        <img src="http://omnfcwctq.bkt.clouddn.com/A1_04.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    火车、汽车
+                                </div>
+                                <div class="project-name">
+                                    车动而风景依旧，形成那一格格的胶片，思念在远方
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://omnfcwctq.bkt.clouddn.com/A1_05.jpg" class="portfolio-box">
+                        <img src="http://omnfcwctq.bkt.clouddn.com/A1_05.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    轮船
+                                </div>
+                                <div class="project-name">
+                                    海风吹过，阳光、沙滩，蓝天白云，它们都来了。
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://omnfcwctq.bkt.clouddn.com/A1_06.jpg" class="portfolio-box">
+                        <img src="http://omnfcwctq.bkt.clouddn.com/A1_06.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    聚会
+                                </div>
+                                <div class="project-name">
+                                    家庭聚会、朋友聚会、Party神器
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-black">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe frameborder="0" src="//v.qq.com/iframe/player.html?vid=c0349rfe0gn&tiny=0&auto=0" allowfullscreen></iframe>
+      </div>
+			<div class="row  no-gutter">
+        <div class="col-md-4 col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe frameborder="0" src="//v.qq.com/iframe/player.html?vid=x0384r3ck9a&tiny=0&auto=0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe frameborder="0" src="//v.qq.com/iframe/player.html?vid=u03845cu1ym&tiny=0&auto=0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe frameborder="0" src="https://v.qq.com/iframe/player.html?vid=m0384p302iu&tiny=0&auto=0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">联系我们</h2>
+                    <hr class="primary">
+                    <p>我有产品，你有市场！期待与您真诚合作！ </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">support@yearbeauty.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="./vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="./vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="./js/creative.min.js"></script>
 
 </body>
 
